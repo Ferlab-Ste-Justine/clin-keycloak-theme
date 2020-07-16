@@ -1,0 +1,99 @@
+.login-clean form .input-group, .login-clean form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 8px;
+  height: 42px;
+  font-size: 16px;
+  letter-spacing: .25px;
+}
+
+input {
+  filter: none;
+}
+
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus,
+.form-control:-webkit-autofill:active {
+  background-color: #f7f9fc !important;
+  -webkit-box-shadow: 0 0 0 100px #f7f9fc inset;
+  -webkit-text-fill-color: black;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.login-clean form .btn-primary {
+  background: #2b84b8;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.login-clean form .btn-primary:hover, .login-clean form .btn-primary:active {
+  background: #2c6f9c;
+}
+
+.login-clean form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(35,55,80,.78);
+  font-weight: 400;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+.login-clean form .forgot:hover, .login-clean form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.login-clean form .intro-text{
+  font-size: 1rem;
+  line-height: 28px;
+  margin-bottom: 40px;
+  color: rgba(35,55,80,.78);
+}
+
+.login-clean .lead {
+  font-size: 1rem;
+  letter-spacing: .5px;
+  line-height: 28px;
+  margin-bottom: 40px;
+  color: rgba(35,55,80,.78);
+}
+
+.login-clean .cqgc-color-logo {
+  height: 5rem;
+}
+
+.login-clean .partenaire {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1.5rem;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (max-width:767px) {
+  .login-clean .partenaire {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1.5rem;
+    justify-items: center;
+    align-items: center;
+  }
+  .login-clean .cqgc-color-logo {
+    height: 3rem;
+  }
+}
+

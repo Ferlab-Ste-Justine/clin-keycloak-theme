@@ -229,7 +229,7 @@
                                             <tr>
                                                 <td align="center" valign="top" width="600" style=" margin:0; padding:0;">
                                         <![endif]-->
-                                        <table align="left" border="0" class="fw-100" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:600px;" width="600">
+                                        <table align="right" border="0" class="fw-100" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:600px;" width="600">
                                             <tbody>
                                             <tr>
                                                 <td style="line-height: 20px; font-size: 10px;">
@@ -237,13 +237,8 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="left" width="150" class="fw-100" style="mso-table-lspace:0pt; mso-table-rspace:0pt; text-align:left;">
-                                                    <img alt="CQGC Logo" src="${msg("cqgc.logo")?no_esc}" style="text-align:left;" width="150" />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="line-height: 20px; font-size: 10px;">
-                                                    &nbsp;
+                                                <td align="right" width="150" height="33" class="fw-100" style="mso-table-lspace:0pt; mso-table-rspace:0pt; text-align:right;">
+                                                    <img alt="CQGC Logo" src="${msg("cqgc.logo")?no_esc}" style="text-align:right;" width="150px" height="33px" />
                                                 </td>
                                             </tr>
                                             </tbody>
@@ -265,63 +260,7 @@
         </tr>
         </tbody>
     </table>
-    <!-- HEADER BANNER -->
-    <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tbody>
-        <tr>
-            <td align="center">
-                <table align="center" bgcolor="#095797" border="0" cellpadding="0" cellspacing="0" id="backgroundTable-banner" width="600">
-                    <tbody>
-                    <tr>
-                        <td align="center" width="600">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="fw-92" style=" margin: 0;padding:0; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; line-height:16px;" width="600">
-                                <tbody>
-                                <tr>
-                                    <td align="center" fw-100 style="mso-table-lspace:0pt; mso-table-rspace:0pt; margin:0; padding:0; width:600px;" valign="top" width="600">
-                                        <!--[if gte mso 9]>
-                                        <table align="center" class="fw-100" border="0" cellpadding="0" cellspacing="0" width="600" style="line-height:16px;width:600px">
-                                            <tr>
-                                                <td align="center" valign="top" width="600" style=" line-height:12px;width:600px ">
-                                        <![endif]-->
-                                        <table align="center" border="0" class="fw-100" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:600px;" width="600">
-                                            <tbody>
-                                            <tr>
-                                                <td style="line-height: 30px; font-size: 10px;">
-                                                    &nbsp;
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="600" valign="top" class="fw-100" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-size:14px; line-height:16px; font-family: Arial, sans-serif; color:#ffffff; text-align:center;">
-                                                    <p style="font-size: 24px; line-height: 16px; font-family: Arial, sans-serif; color:#ffffff; padding: 0; margin: 0; font-weight: bold; text-align: center;">
-                                                        ${msg("passwordResetSubject")}
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="line-height: 20px; font-size: 10px;">
-                                                    &nbsp;
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                        <!--[if gte mso 9]>
-                                        </td>
-                                        </tr>
-                                        </table>
-                                        <![endif]-->
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-    <!-- HEADER FIN -->
+
     <!-- MAIN CONTENT -->
     <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="100%">
         <tbody>
@@ -334,7 +273,7 @@
                             <table align="center" border="0" cellpadding="0" cellspacing="0" class="fw-92" style="background: #FFFFFF; margin: 0;padding:0; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse;" width="600">
                                 <tbody>
                                 <tr>
-                                    <td style="line-height: 20px; font-size: 10px;">
+                                    <td style="line-height: 15px; font-size: 10px;">
                                         &nbsp;
                                     </td>
                                 </tr>
@@ -348,14 +287,10 @@
                                         <table class="fw-92" align="center" border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:600px;" width="600">
                                             <tbody>
                                             <tr>
-                                                <td style="line-height: 10px; font-size: 10px;">
-                                                    &nbsp;
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="600" valign="top" bgcolor="#ffffff" align="left" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-size:18px; line-height:22px; font-family:Arial, sans-serif; color:#464646;text-align: left;">
-                                                    <p style="font-size: 18px; line-height: 22px; text-align: left; font-family: Arial, sans-serif; color:#464646; padding: 0; margin: 0; font-weight: 400;">
-                                                        ${msg("passwordResetTitle")}
+                                                <td width="600" valign="top" class="fw-100" bgcolor="#ffffff" align="center" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:Arial, sans-serif; color:#536377;text-align: center;">
+                                                    <p style="font-size: 13px; line-height: 18px; text-align: left; font-family: Arial, sans-serif; color:#536377; padding: 0; margin: 0; font-weight: 400;">
+                                                        ${msg("passwordResetSalutation")?no_esc}<br><br>
+                                                        ${msg("passwordResetBodyHtml1")?no_esc}
                                                     </p>
                                                 </td>
                                             </tr>
@@ -365,25 +300,8 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="line-height: 10px; font-size: 10px;">
-                                                    &nbsp;
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="600" valign="top" class="fw-100" bgcolor="#ffffff" align="center" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:Arial, sans-serif; color:#464646;text-align: center;">
-                                                    <p style="font-size: 15px; line-height: 18px; text-align: left; font-family: Arial, sans-serif; color:#464646; padding: 0; margin: 0; font-weight: 400;">
-                                                        ${msg("passwordResetBodyHtml1", realmName)?no_esc}
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="line-height: 10px; font-size: 10px;">
-                                                    &nbsp;
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="600" valign="top" class="fw-100" bgcolor="#ffffff" align="center" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:Arial, sans-serif; color:#464646;text-align: center;">
-                                                    <p style="font-size: 15px; line-height: 18px; text-align: left; font-family: Arial, sans-serif; color:#464646; padding: 0; margin: 0; font-weight: 400;">
+                                                <td width="600" valign="top" class="fw-100" bgcolor="#ffffff" align="center" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:Arial, sans-serif; color:#536377;text-align: center;">
+                                                    <p style="font-size: 13px; line-height: 18px; text-align: left; font-family: Arial, sans-serif; color:#536377; padding: 0; margin: 0; font-weight: 400;">
                                                         ${msg("passwordResetBodyHtml2", link)?no_esc}
                                                     </p>
                                                 </td>
@@ -394,9 +312,9 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td width="600" valign="top" class="fw-100" bgcolor="#ffffff" align="center" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:Arial, sans-serif; color:#464646;text-align: center;">
-                                                    <p style="font-size: 15px; line-height: 18px; text-align: left; font-family: Arial, sans-serif; color:#464646; padding: 0; margin: 0; font-weight: 400;">
-                                                        ${msg("passwordResetBodyHtml3", linkExpiration)?no_esc}
+                                                <td width="600" valign="top" class="fw-100" bgcolor="#ffffff" align="center" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:Arial, sans-serif; color:#536377;text-align: center;">
+                                                    <p style="font-size: 13px; line-height: 18px; text-align: left; font-family: Arial, sans-serif; color:#536377; padding: 0; margin: 0; font-weight: 400;">
+                                                        ${msg("passwordResetBodyHtml3")?no_esc}
                                                     </p>
                                                 </td>
                                             </tr>
@@ -418,9 +336,22 @@
                             </table>
                         </td>
                     </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- FOOTER DIVIDER -->
+    <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+        <tr>
+            <td align="center">
+                <table class="fw-92" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                    <tbody>
                     <tr>
-                        <td style="line-height: 30px; font-size: 30px;">
-                            &nbsp;
+                        <td class="fw-92" align="center" width="600">
+                            <hr style="display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0;" />
                         </td>
                     </tr>
                     </tbody>
@@ -429,12 +360,13 @@
         </tr>
         </tbody>
     </table>
+    <!-- FOOTER DIVIDER FIN -->
     <!-- FOOTER -->
     <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
         <tbody>
         <tr>
             <td align="center">
-                <table align="center" bgcolor="#095797" border="0" cellpadding="0" cellspacing="0" id="backgroundTable-footer" width="600">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" id="backgroundTable-footer" width="600">
                     <tbody>
                     <tr>
                         <td align="center" width="600">
@@ -450,27 +382,24 @@
                                         <table align="center" border="0" class="fw-100" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:600px;" width="600">
                                             <tbody>
                                             <tr>
-                                                <td style="line-height: 30px; font-size: 10px;">
+                                                <td style="line-height: 5px; font-size: 10px;">
                                                     &nbsp;
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td width="600" valign="top" class="fw-100" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-size:14px; line-height:16px; font-family: Arial, sans-serif; color:#ffffff; text-align:center;">
-                                                    <p style="font-size: 13px; line-height: 16px; font-family: Arial, sans-serif; color:#ffffff; padding: 0; margin: 0; font-weight: bold; text-align: center;">
-                                                        ${msg("passwordResetNeedHelp" "https://clin.ferlab.bio" )?no_esc}
+                                                <td width="600" valign="top" class="fw-100" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-size:11px; font-family: Arial, sans-serif; color:#1d8bc6; text-align:center;">
+                                                    <p style="font-size: 11px; font-family: Arial, sans-serif; color:#1d8bc6; padding: 0; margin: 0; text-align: center;">
+                                                        ${msg("passwordResetFooter1" "https://clin.ferlab.bio")?no_esc} |
+                                                        ${msg("passwordResetFooter2" "https://clin.ferlab.bio")?no_esc} |
+                                                        ${msg("passwordResetFooter3" "https://clin.ferlab.bio")?no_esc} |
+                                                        ${msg("passwordResetFooter4" "https://clin.ferlab.bio")?no_esc}
                                                     </p>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="line-height: 20px; font-size: 10px;">
-                                                    &nbsp;
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="600" valign="top" class="fw-100" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-size:14px; line-height:16px; font-family: Arial, sans-serif; color:#ffffff; text-align:center;">
-                                                    <p style="font-size: 13px; line-height: 16px; font-family: Arial, sans-serif; color:#ffffff; padding: 0; margin: 0; font-weight: normal; text-align: center;">
-                                                        <strong>${msg("passwordResetMistake")?no_esc}</strong>
-                                                        <br/>${msg("passwordResetBodyHtml4")?no_esc}
+                                                <td width="600" valign="top" class="fw-100" style=" mso-table-lspace:0pt; mso-table-rspace:0pt; font-size:11px; line-height:16px; font-family: Arial, sans-serif; color:#cccccc; text-align:center;">
+                                                    <p style="font-size: 11px; line-height: 16px; font-family: Arial, sans-serif; color:#cccccc; padding: 0; margin: 0; font-weight: normal; text-align: center;">
+                                                        ${msg("passwordResetCopyright")?no_esc}
                                                     </p>
                                                 </td>
                                             </tr>

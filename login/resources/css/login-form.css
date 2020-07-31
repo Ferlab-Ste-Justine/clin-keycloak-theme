@@ -1,21 +1,102 @@
-.login-clean form .input-group, .login-clean form .form-control {
-  background: #f7f9fc;
-  border: none;
-  border-bottom: 1px solid #dfe7f1;
-  border-radius: 0;
+.login-clean form {
+  padding: 0px;
+}
+
+.login-clean form p {
+  margin-top: -15px;
+}
+
+.login-clean form .create-account {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #1D8BC6;
+}
+
+h3.form-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #233750;
+}
+
+.login-clean form label {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+  color: #233750;
+  margin: 0;
+}
+
+.login-clean form .input-group {
+  background: #FFFFFF;
+  border: 1px solid #ABBED3;
+  border-radius: 2px;
   box-shadow: none;
   outline: none;
   color: inherit;
-  text-indent: 8px;
+  text-indent: 4px;
   height: 42px;
   font-size: 16px;
-  letter-spacing: .25px;
+  letter-spacing: 0.25px;
+}
+
+.form-control, .input-group-text {
+  border: none;
+  background-color: #FFFFFF;
+}
+
+.input-group-text {
+  color: #DADADA;
 }
 
 input {
   filter: none;
 }
 
+::-webkit-input-placeholder { /* Edge */
+  font-family: 'Roboto', sans sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #ABB3BC;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: 'Roboto', sans sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #ABB3BC;
+}
+
+::placeholder {
+  font-family: 'Roboto', sans sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #ABB3BC;
+}
+
+/*
 .form-control:-webkit-autofill,
 .form-control:-webkit-autofill:hover,
 .form-control:-webkit-autofill:focus,
@@ -25,12 +106,12 @@ input {
   -webkit-text-fill-color: black;
   transition: background-color 5000s ease-in-out 0s;
 }
-
+*/
 
 .login-clean form .btn-primary {
-  background: #2b84b8;
+  background: #1D8BC6;
   border: none;
-  border-radius: 4px;
+  border-radius: 2px;
   padding: 11px;
   box-shadow: none;
   margin-top: 26px;
@@ -44,12 +125,13 @@ input {
 
 .login-clean form .forgot {
   display: block;
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-size: 12px;
-  color: rgba(35,55,80,.78);
-  font-weight: 400;
-  opacity: 0.9;
-  text-decoration: underline;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  color: #858E99;
+  text-decoration: none;
 }
 
 .login-clean form .forgot:hover, .login-clean form .forgot:active {
@@ -58,42 +140,124 @@ input {
 }
 
 .login-clean form .intro-text{
-  font-size: 1rem;
-  line-height: 28px;
-  margin-bottom: 40px;
-  color: rgba(35,55,80,.78);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #536377;
+  letter-spacing: 0.15px;
+  margin-bottom: 25px;
 }
 
 .login-clean .lead {
-  font-size: 1rem;
-  letter-spacing: .5px;
-  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
   margin-bottom: 40px;
-  color: rgba(35,55,80,.78);
+  color: #536377;
 }
 
 .login-clean .cqgc-color-logo {
   height: 5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.login-clean .partenaire {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 1.5rem;
-  justify-items: center;
-  align-items: center;
+.list-group.sponsorsTop {
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 
-@media (max-width:767px) {
-  .login-clean .partenaire {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 1.5rem;
-    justify-items: center;
-    align-items: center;
+.list-group-item {
+  padding: 0 45px 0 0;
+  background-color: transparent;
+  border: none;
+}
+
+/*---------------*/
+/* MEDIA QUERIES */
+/*---------------*/
+
+@media (max-width: 991px) {
+  .cqgc-color-logo {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin-top: 25px !important;
   }
-  .login-clean .cqgc-color-logo {
-    height: 3rem;
+  .list-group-item.sponsors {
+    padding: 0 20px 0 0;
+  }
+  .sponsorsGrid img {
+    width: 95%;
+    height: auto;
+  }
+  form.m-5 {
+    margin: 30px 15px 30px 15px !important;
+  }
+  .form-group, .intro-text, .form-title {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ::placeholder {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  ::-webkit-input-placeholder { /* Edge */
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 
+@media (max-width: 767px) {
+  ::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  ::-webkit-input-placeholder { /* Edge */
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .cqgc-color-logo {
+    max-width: 275px;
+    width: 100%;
+    height: auto;
+    margin-top: 10px !important;
+  }
+  .sponsorsGrid {
+    margin-bottom: 30px;
+  }
+  .pl-5 {
+    padding-left: 2rem
+  }
+  .about {
+    padding-right: 50px!important;
+  }
+}
+
+@media (max-width: 450px) {
+  .list-group {
+    display: inline-block;
+  }
+  .sponsorsGrid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sponsorsGrid img {
+    width: 100%;
+    height: auto;
+  }
+}

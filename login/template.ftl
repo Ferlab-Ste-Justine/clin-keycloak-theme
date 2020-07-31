@@ -7,6 +7,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="robots" content="noindex, nofollow">
 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
         <#if properties.meta?has_content>
             <#list properties.meta?split(' ') as meta>
                 <meta name="${meta?split('==')[0]}" content="${meta?split('==')[1]}"/>

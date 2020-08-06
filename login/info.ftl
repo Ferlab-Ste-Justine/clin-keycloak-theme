@@ -11,17 +11,17 @@
                     <div id="message" class="col-md-6 py-5">
                         <div class="card" >
                             <div class="card-body" >
-                                <h3 class="card-title">
+                                <h3 class="form-title">
                                     Information
                                 </h3>
-                                <div class="card-text border-bottom">
-                                    <p class="instruction">
+                                <div class="card-text border-bottom intro-text">
+                                    <p class="instruction ">
                                         ${message.summary}<#if requiredActions??><#list requiredActions>: <b><#items as reqActionItem>${msg("requiredAction.${reqActionItem}")}<#sep>, </#items></b></#list><#else></#if>
                                     </p>
                                 </div>
 
                                 <div id="kc-form-buttons" style="margin-top:10px" class="${properties.kcFormButtonsClass!}">
-                                    <div class="${properties.kcFormButtonsWrapperClass!}">
+                                    <div class="${properties.kcFormButtonsWrapperClass!} backToConnexion">
                                         <#if pageRedirectUri??>
                                             <p><a href="${pageRedirectUri}" class="card-link">${msg("backToApplication")?no_esc}</a></p>
                                         <#elseif actionUri??>

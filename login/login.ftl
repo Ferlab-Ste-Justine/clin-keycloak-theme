@@ -5,7 +5,7 @@
     <#if section = "header">
         <@fragments.clinNavigation />
     <#elseif section = "form-start">
-        <main role="main" style="background-image: url('${url.resourcesPath}/img/background-home.jpg')">
+        <main role="main" style="background-image: url('${url.resourcesPath}/img/background-home.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
             <section class="pt-3">
                 <div class="login-clean container pt-5 pb-4">
                     <div class="row justify-content-center">

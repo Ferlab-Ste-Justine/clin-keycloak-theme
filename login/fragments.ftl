@@ -34,14 +34,14 @@
     </div>
 
     <div class="partenaire pt-2">
-        <img height="42" alt="Centre hospitalier universitaire mère-enfant CHU Sainte-Justine" src="${url.resourcesPath}/img/logos/chujs-color.svg">
-        <img height="75" alt="Centre hospitalier urbain de Montréal" src="${url.resourcesPath}/img/chum.png">
-        <img height="40" alt="Hôpital général juif" src="${url.resourcesPath}/img/logos/hgj.svg">
-        <img height="60" alt="CHU du Québec" src="${url.resourcesPath}/img/chu.png">
-        <img height="30" alt="Institut de cardiologie de Montréal" src="${url.resourcesPath}/img/icm.png">
-        <img height="45" alt="Centre hospitalier universitaire de Sherbrooke" src="${url.resourcesPath}/img/chus.gif">
-        <img height="35" alt="Hôpital Maisonneuve-Rosemont" src="${url.resourcesPath}/img/hmr.gif">
-        <img height="20" alt="Centre universitaire de santé McGill" src="${url.resourcesPath}/img/logos/mcgill.svg">
+        <img height="42" alt="${msg("login.partner.chust")}" src="${url.resourcesPath}/img/logos/chujs-color.svg">
+        <img height="75" alt="${msg("login.partner.chum")}" src="${url.resourcesPath}/img/chum.png">
+        <img height="40" alt="${msg("login.partner.jewish")}" src="${url.resourcesPath}/img/logos/hgj.svg">
+        <img height="60" alt="${msg("login.partner.chuq")}" src="${url.resourcesPath}/img/chu.png">
+        <img height="30" alt="${msg("login.partner.cardio")}" src="${url.resourcesPath}/img/icm.png">
+        <img height="45" alt="${msg("login.partner.chus")}" src="${url.resourcesPath}/img/chus.gif">
+        <img height="35" alt="${msg("login.partner.hmr")}" src="${url.resourcesPath}/img/hmr.gif">
+        <img height="20" alt="${msg("login.partner.mcgill")}" src="${url.resourcesPath}/img/logos/mcgill.svg">
     </div>
 </#macro>
 
@@ -118,13 +118,6 @@
                 </div>
             </div>
         </div>
-        <#--<div class="footer-basic">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <p class="copyright">CHU Sainte-Justine © <span id="date"></span></p>
-                </div>
-            </div>
-        </div>-->
     </section>
 </#macro>
 

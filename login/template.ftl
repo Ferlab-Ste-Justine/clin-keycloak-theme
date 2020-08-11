@@ -7,6 +7,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="robots" content="noindex, nofollow">
 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
         <#if properties.meta?has_content>
             <#list properties.meta?split(' ') as meta>
                 <meta name="${meta?split('==')[0]}" content="${meta?split('==')[1]}"/>
@@ -40,19 +42,27 @@
         <#-- during login.                                                                               -->
         <#if displayMessage && message?has_content && (message.type != 'warning' || !isAppInitiatedAction??)>
             <#if message.type = 'success'>
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <#elseif message.type = 'warning'>
-                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <div class="alert alert-success alert-dismissible fade show successMessage" role="alert">
+                    ${kcSanitize(message.summary)?no_esc}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
             <#elseif message.type = 'error'>
-                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <div class="alert alert-danger alert-dismissible fade show dangerMessage" role="alert">
+                    ${kcSanitize(message.summary)?no_esc}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
             <#elseif message.type = 'info'>
                 <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    ${kcSanitize(message.summary)?no_esc}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
             </#if>
-                ${kcSanitize(message.summary)?no_esc}
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
         </#if>
         <#-- For backward compatibility.                                                                -->
         <#nested "form">

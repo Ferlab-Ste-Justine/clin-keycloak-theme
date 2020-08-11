@@ -4,6 +4,11 @@
   color: #4b4c4d;
 }
 
+.footer-basic .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .footer-basic ul {
   padding: 0;
   list-style: none;

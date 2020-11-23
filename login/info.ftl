@@ -5,7 +5,7 @@
     <#if section = "form">
         <@fragments.clinNavigation />
 
-        <main role="main" style="background-image: url('${url.resourcesPath}/img/background-home.jpg');">
+        <main role="main" style="background-image: url('${url.resourcesPath}/img/background-home.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div id="message" class="col-md-6 py-5">

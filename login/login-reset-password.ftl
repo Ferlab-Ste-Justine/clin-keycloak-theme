@@ -13,7 +13,7 @@
                             <div class="mb-5 pb-1 pt-1 bg-white rounded shadow-lg">
                                 <form class="m-5" id="kc-reset-password-form" action="${url.loginAction}" method="post" autocomplete="off">
                                     <p class="text-right">
-                                        <a class="create-account" href="#">${msg("login.form.create-account")}</a>
+                                        <a class="create-account" href="${url.registrationUrl}">${msg("login.form.create-account")}</a>
                                     </p>
                                     <h3 class="form-title">${msg("login.form.forgot-password")}</h3>
                                     <div class="intro-text">${msg("emailInstruction")}</div>

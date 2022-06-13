@@ -42,6 +42,7 @@
         <img height="45" alt="${msg("login.partner.chus")}" src="${url.resourcesPath}/img/chus.gif">
         <img height="35" alt="${msg("login.partner.hmr")}" src="${url.resourcesPath}/img/hmr.gif">
         <img height="20" alt="${msg("login.partner.mcgill")}" src="${url.resourcesPath}/img/logos/mcgill.svg">
+        <img height="29" alt="${msg("login.partner.msssq")}" src="${url.resourcesPath}/img/logos/msssq.svg">
     </div>
 </#macro>
 

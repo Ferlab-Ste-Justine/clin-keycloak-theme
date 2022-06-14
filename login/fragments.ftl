@@ -34,15 +34,15 @@
     </div>
 
     <div class="partenaire pt-2">
-        <img height="42" alt="${msg("login.partner.chust")}" src="${url.resourcesPath}/img/logos/chujs-color.svg">
-        <img height="75" alt="${msg("login.partner.chum")}" src="${url.resourcesPath}/img/chum.png">
-        <img height="40" alt="${msg("login.partner.jewish")}" src="${url.resourcesPath}/img/logos/hgj.svg">
-        <img height="60" alt="${msg("login.partner.chuq")}" src="${url.resourcesPath}/img/chu.png">
-        <img height="30" alt="${msg("login.partner.cardio")}" src="${url.resourcesPath}/img/icm.png">
-        <img height="45" alt="${msg("login.partner.chus")}" src="${url.resourcesPath}/img/chus.gif">
-        <img height="35" alt="${msg("login.partner.hmr")}" src="${url.resourcesPath}/img/hmr.gif">
-        <img height="20" alt="${msg("login.partner.mcgill")}" src="${url.resourcesPath}/img/logos/mcgill.svg">
-        <img height="29" alt="${msg("login.partner.msssq")}" src="${url.resourcesPath}/img/logos/msssq.svg">
+        <div class="partner-img"><img height="42" alt="${msg("login.partner.chust")}" src="${url.resourcesPath}/img/logos/chujs-color.svg"></div>
+        <div class="partner-img"><img height="75" alt="${msg("login.partner.chum")}" src="${url.resourcesPath}/img/chum.png"></div>
+        <div class="partner-img"><img height="40" alt="${msg("login.partner.jewish")}" src="${url.resourcesPath}/img/logos/hgj.svg"></div>
+        <div class="partner-img"><img height="60" alt="${msg("login.partner.chuq")}" src="${url.resourcesPath}/img/chu.png"></div>
+        <div class="partner-img"><img height="30" alt="${msg("login.partner.cardio")}" src="${url.resourcesPath}/img/icm.png"></div>
+        <div class="partner-img"><img height="45" alt="${msg("login.partner.chus")}" src="${url.resourcesPath}/img/chus.gif"></div>
+        <div class="partner-img"><img height="35" alt="${msg("login.partner.hmr")}" src="${url.resourcesPath}/img/hmr.gif"></div>
+        <div class="partner-img"><img height="20" alt="${msg("login.partner.mcgill")}" src="${url.resourcesPath}/img/logos/mcgill.svg"></div>
+        <div class="partner-img"><img height="29" alt="${msg("login.partner.msssq")}" src="${url.resourcesPath}/img/logos/msssq.svg"></div>
     </div>
 </#macro>
 

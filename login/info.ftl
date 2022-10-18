@@ -38,7 +38,6 @@
             </div>
         </main>
 
-        <@fragments.clinFooter />
         <@fragments.clinFooterScripts />
     </#if>
 </@layout.registrationLayout>

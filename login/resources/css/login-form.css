@@ -158,6 +158,7 @@ input {
   color: #536377;
   letter-spacing: 0.15px;
   margin-bottom: 25px;
+  margin-top: 0;
 }
 
 .login-clean .lead {
